@@ -23,11 +23,11 @@ header nav a {
 
 #main-title {
   background: #999;
-  height: 400px;
+  height: 250px;
   max-width: 1400px;
   margin: 0 auto;
   padding: 20px;
-  background-image: url("../img/title-bg.jpg");
+  background-image: url("../img/mobile-bg.jpg");
   color: #fff;
   background-size: cover;
   text-align: center;
@@ -36,10 +36,15 @@ header nav a {
   text-shadow: 1px 1px 2px #000;
 }
 
+.container {
+  display: flex;
+}
+
 main .container article {
   border: 1px solid #ccc;
   background: #fff;
-  padding: 40px;
+  padding: 20px;
+  font-size: 15px;
 }
 
 ul li {
@@ -48,8 +53,4 @@ ul li {
 
 #choice {
   padding: 20px;
-}
-
-main .container article:last-child {
-  background: rgb(211, 138, 109);
 }

@@ -51,7 +51,3 @@ main {
   max-width: 1400px;
   margin: 0 auto;
 }
-
-main .container article:last-child {
-  background: rgb(211, 138, 109);
-}
